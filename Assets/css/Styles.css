@@ -1,0 +1,98 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    margin-right: 20px;
+    width: 85%;
+    font-size: 20px;
+}
+
+.container{
+    align-items: center;
+    background-color: #ffffff;
+    width:1000px;
+    max-width: 95%;
+    margin:auto;
+    padding:50px;
+    box-shadow: 0 10px 50px #9aa86d;
+    display: grid;
+    grid-template-columns: 35% 60% ;
+    column-gap:5%; 
+    row-gap: 30px;
+}
+
+/* PERFIL */
+.Perfil img{
+    width:200px;
+    height:200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.Perfil{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+/* NOMBRE */
+.nombre{
+    padding-left: 30px;
+    border-left:1px solid #000;
+}
+
+.nombre h1{
+    font-weight: 300;
+    margin:0px 0 5px ;
+}
+
+.nombre .Especialización{
+    margin:0;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+img.aling_text {
+    vertical-align: middle;
+}
+
+/* INFO */
+.información ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: right;
+    line-height: 30px;
+} 
+
+h2{
+    padding:0;
+    margin: 0 0 20px 0;
+}
+
+/* INTRO */
+.introducción {
+    padding-left: 30px;
+    padding-right: 20px;
+    border-left: 1px solid #000;
+    text-align: justify;
+}
+
+/* EXPERIENCIA */
+
+.experiencia  {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    padding:10px 0;
+}
+
+.experiencia h3{
+    margin:20px 0 10px;
+}
+
+/* LENGUAJE */
+.Skills{
+    margin-top: 50px;
+    text-align: right;
+}
